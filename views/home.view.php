@@ -1,5 +1,5 @@
 <?php
-  require basePath('views/partials/head.php');
+  require basepath('views/partials/head.php');
 ?> 
 
   <body class="bg-gray-100">
@@ -7,10 +7,10 @@
     <?php loadpartial('navbar'); ?>
 
     <!-- Showcase -->
-    <?php require basePath('views/partials/showcase.php'); ?>
+    <?php require basepath('views/partials/showcase.php'); ?>
 
     <!-- Top Banner -->
-    <?php require basePath('views/partials/topbanner.php'); ?>
+    <?php require basepath('views/partials/topbanner.php'); ?>
 
     <!-- Job Listings -->
     <section>

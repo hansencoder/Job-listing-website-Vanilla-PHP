@@ -1,0 +1,5 @@
+Rewrite Engine On
+RewriteCond % {REQUEST_FILENAME} !-P
+RewriteCond % {REQUEST_FILENAME} !-d
+Rewrite ^(.*)$ /Index.php
+[NC,L,QSA]
